@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maleiyah's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/35fd4aa309.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Software/Data Engineer</p>
+            <h1>Hello, I'm <span>Maleiyah</span><br>Branch-Davis</h1>
+        </div>
+    </div>
+</div>
+<!------------about me section------------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1" >
+                <img src="me2.jpg">
+            </div>
+            <div class="about-col-2" >
+                <h1 class="subtitle">About Me</h1>
+                <p>Career switcher looking to find my happy place in the tech field. I have a passion for health and wellness and want to incoportate my skills acquired in that field with tech. I enjoy coding in python and javascript as well as cleaning datasets and creating visualizations with them. In my spare time I love to read, write poetry and workout. </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('education')">Certifications</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Data Engineer</span><br>Designing/Developing/Maintaining Infrastructure of Data Storage</li>
+                        <li><span>Software Engineer</span><br>Designing/Developing/Maintaining Computer Software</li>
+                        <li><span>Web Development</span><br>Building/Mantaining Websites</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>April 2022 - Present </span><br>Cognixia USA<br>Data Engineer</li>
+                        <li><span>October 2018 - February 2023</span><br>Dallas Metropolitan YMCA<br>Personal Trainer</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022</span><br>Fullstack Academy<br>Web Development Certficate </li>
+                        <li><span>2013-2018 </span><br> University of Texas at Dallas<br>Bachelor of Arts in Interdiscplinary Studies</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="certifications">
+                    <ul>
+                        <li><span>2022</span><br>Fullstack Academy<br>Web Development Certfication </li>
+                        <li><span>2013-2018 </span><br> University of Texas at Dallas<br>Bachelor of Arts in Interdiscplinary Studies</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!------------services------------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Data Engineering</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit possimus consequuntur hic dolorum totam maiores debitis ipsam nihil maxime ullam, velit temporibus, ratione laborum deleniti architecto delectus ab excepturi quibusdam.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Software Engineering</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit possimus consequuntur hic dolorum totam maiores debitis ipsam nihil maxime ullam, velit temporibus, ratione laborum deleniti architecto delectus ab excepturi quibusdam.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-html5"></i>
+                <h2>Web Developing</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit possimus consequuntur hic dolorum totam maiores debitis ipsam nihil maxime ullam, velit temporibus, ratione laborum deleniti architecto delectus ab excepturi quibusdam.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------portfolio------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="trivia.jpg">
+                <div class="layer">
+                    <h3>Trivia Game App</h3>
+                    <p>Basic quiz app that allows you to signup/login, and choose from multiple quiz sets to play. </p>
+                    <a href="https://github.com/maleiyahdavis/trivia-quiz-app">View</a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="tv.jpg">
+                <div class="layer">
+                    <h3>TV Tracker App</h3>
+                    <p>Basic television tracking app that allows you to signup/login, choose from a list of shows to watch, and keeps track of the commpletion of episodes and/or series</p>
+                    <a href="https://github.com/maleiyahdavis/Progress_Tracker_Project">View</a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="stroke.jpg">
+                <div class="layer">
+                    <h3>Stroke Prediction Analysis</h3>
+                    <p>Utilized ETL principles on a stroke dataset and created insightful visualizatons in regard to potential correlations between stroke and a number of factors such as heart disease, BMI, gender and age.</p>
+                    <a href="https://github.com/maleiyahdavis/Stroke-Prediction">View</a>
+                </div>
+            </div> 
+        </div>
+        <a href="https://github.com/maleiyahdavis" class="btn">See More</a>
+    </div>
+</div>
+<!------------contact------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>maleiyahdavis@yahoo.com</p>
+                <p><i class="fa-solid fa-phone"></i>214-517-2229</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/maleiyah-branch-davis/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/maleiyahdavis"><i class="fa-brands fa-square-github"></i></a>
+                </div>
+                <a href="#" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Maleiyah. Made with Easy Tutorials</p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+</body>
+</html>
